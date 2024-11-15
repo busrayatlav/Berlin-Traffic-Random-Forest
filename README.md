@@ -30,28 +30,18 @@ o	avg_speed_all_vehicles_kmh: Average speed of all vehicles (km/h).
  
 Installation
 1.	Clone the repository:
-bash
-Copy code
 git clone https://github.com/busrayatlav/Berlin-Traffic-Random-Forest.git
 cd Berlin-Traffic-Random-Forest
 2.	Set up a Python virtual environment (optional but recommended):
-bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 3.	Install dependencies:
-bash
-Copy code
 pip install -r requirements.txt
  
 Usage
 1.	Load the dataset and ensure it's in the same directory:
-bash
-Copy code
 /path/to/berlin_traffic_data.csv
 2.	Run the script:
-bash
-Copy code
 python berlin_traffic_random_forest.py
 3.	Outputs:
 o	Model performance metrics (MSE, R²) displayed in the terminal.
