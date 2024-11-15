@@ -78,4 +78,3 @@ Technologies Used
  
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-![image](https://github.com/user-attachments/assets/6f0b303a-c854-47ac-ab3b-d20f2924ca8b)
