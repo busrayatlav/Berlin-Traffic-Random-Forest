@@ -42,12 +42,17 @@ pip install -r requirements.txt
  
 ## Usage
 1.	Load the dataset and ensure it's in the same directory:
-/path/to/berlin_traffic_data.csv
+   ```bash
+   /path/to/berlin_traffic_data.csv
+
 2.	Run the script:
-python berlin_traffic_random_forest.py
+  ```bash
+  python berlin_traffic_random_forest.py
+
 3.	Outputs:
--	Model performance metrics (MSE, R²) displayed in the terminal.
--	Visualizations saved or displayed.
+  ```bash
+  -	Model performance metrics (MSE, R²) displayed in the terminal.
+  -	Visualizations saved or displayed.
  
 ## Results
 •	Mean Squared Error (MSE): 188.14
