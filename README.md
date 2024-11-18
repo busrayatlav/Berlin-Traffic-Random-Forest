@@ -3,7 +3,6 @@ Berlin Traffic Speed Prediction Using Random Forest
 This project applies a Random Forest Regressor to predict average vehicle speed in Berlin based on traffic density data. By analyzing relationships between vehicle counts (total, cars, trucks) and their speeds, the project provides insights into traffic behavior and performance evaluation of the model.
  
 Table of Contents
-
 1.	Project Description
 2.	Dataset
 3.	Installation
@@ -14,7 +13,6 @@ Table of Contents
 8.	License
  
 Project Description
-
 Accurate prediction of average vehicle speed helps in understanding traffic patterns and improving transportation systems. This project:
 -	Trains a Random Forest Regressor using traffic density data.
 -	Evaluates the model with metrics like Mean Squared Error (MSE) and R-squared (R²).
@@ -50,7 +48,6 @@ python berlin_traffic_random_forest.py
 -	Visualizations saved or displayed.
  
 Results
-
 •	Mean Squared Error (MSE): 188.14
 •	R-squared (R²): 0.27
 •	The model shows moderate predictive accuracy but highlights key features influencing average speed.
