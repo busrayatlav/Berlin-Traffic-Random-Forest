@@ -16,19 +16,19 @@ Table of Contents
 Project Description
 
 Accurate prediction of average vehicle speed helps in understanding traffic patterns and improving transportation systems. This project:
-•	Trains a Random Forest Regressor using traffic density data.
-•	Evaluates the model with metrics like Mean Squared Error (MSE) and R-squared (R²).
-•	Visualizes model results and feature importance for interpretability.
+-	Trains a Random Forest Regressor using traffic density data.
+-	Evaluates the model with metrics like Mean Squared Error (MSE) and R-squared (R²).
+-	Visualizes model results and feature importance for interpretability.
  
 Dataset
 The dataset contains hourly traffic data from Berlin:
-•	Features:
-o	vehicle_count_per_hour: Total vehicles per hour.
-o	car_count_per_hour: Total cars per hour.
-o	truck_count_per_hour: Total trucks per hour.
-•	Target:
-o	avg_speed_all_vehicles_kmh: Average speed of all vehicles (km/h).
-•	The dataset is stored in a CSV file and uses a semicolon (;) as the delimiter.
+1. Features:
+   -vehicle_count_per_hour: Total vehicles per hour.
+   - car_count_per_hour: Total cars per hour.
+   - truck_count_per_hour: Total trucks per hour.
+2. Target:
+   - avg_speed_all_vehicles_kmh: Average speed of all vehicles (km/h).
+   - The dataset is stored in a CSV file and uses a semicolon (;) as the delimiter.
  
 Installation
 1.	Clone the repository:
@@ -57,17 +57,17 @@ Results
  
 Visualizations
 1.	Actual vs Predicted Speeds:
-o	A scatter plot comparing actual traffic speeds to model predictions. 
+- 	A scatter plot comparing actual traffic speeds to model predictions. 
 2.	Feature Importance:
-o	A bar chart showing the relative importance of input features. 
+-	A bar chart showing the relative importance of input features. 
 3.	Residual Plot:
-o	A scatter plot of residuals to evaluate prediction errors. 
+-	A scatter plot of residuals to evaluate prediction errors. 
  
 Technologies Used
-•	Python: Programming language.
-•	Pandas: Data manipulation.
-•	scikit-learn: Machine learning library.
-•	Matplotlib: Data visualization.
+-	Python: Programming language.
+-	Pandas: Data manipulation.
+-	scikit-learn: Machine learning library.
+-	Matplotlib: Data visualization.
  
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
