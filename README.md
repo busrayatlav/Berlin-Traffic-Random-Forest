@@ -13,12 +13,14 @@ Table of Contents
 8.	License
  
 Project Description
+
 Accurate prediction of average vehicle speed helps in understanding traffic patterns and improving transportation systems. This project:
 -	Trains a Random Forest Regressor using traffic density data.
 -	Evaluates the model with metrics like Mean Squared Error (MSE) and R-squared (R²).
 -	Visualizes model results and feature importance for interpretability.
  
 Dataset
+
 The dataset contains hourly traffic data from Berlin:
 1. Features:
    -vehicle_count_per_hour: Total vehicles per hour.
