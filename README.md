@@ -41,19 +41,23 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
  
 ## Usage
-1.	Load the dataset and ensure it's in the same directory:
+
+1. **Load the dataset**:  
+   Ensure the dataset (`berlin_traffic_data.csv`) is in the same directory as the script.
+
    ```bash
    /path/to/berlin_traffic_data.csv
-
+   
 2. Run the script:
-  ```bash
-  python berlin_traffic_random_forest.py
+Execute the script to train the model and generate outputs.
 
-3.Outputs:
-  ```bash
-  -	Model performance metrics (MSE, R²) displayed in the terminal.
-  -	Visualizations saved or displayed.
-
+   ```bash
+   python berlin_traffic_random_forest.py
+   
+3. Outputs:
+   
+- Model performance metrics (MSE, R²) will be displayed in the terminal.
+- Visualizations will either be saved or displayed directly.
 
 ## Results
 •	Mean Squared Error (MSE): 188.14
