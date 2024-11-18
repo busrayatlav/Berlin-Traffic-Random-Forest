@@ -45,11 +45,11 @@ pip install -r requirements.txt
    ```bash
    /path/to/berlin_traffic_data.csv
 
-2.	Run the script:
+2. Run the script:
   ```bash
   python berlin_traffic_random_forest.py
 
-3.	Outputs:
+3.Outputs:
   ```bash
   -	Model performance metrics (MSE, R²) displayed in the terminal.
   -	Visualizations saved or displayed.
