@@ -50,6 +50,7 @@ o	Model performance metrics (MSE, R²) displayed in the terminal.
 o	Visualizations saved or displayed.
  
 Results
+
 •	Mean Squared Error (MSE): 188.14
 •	R-squared (R²): 0.27
 •	The model shows moderate predictive accuracy but highlights key features influencing average speed.
