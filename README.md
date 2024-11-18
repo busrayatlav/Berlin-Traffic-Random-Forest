@@ -46,8 +46,8 @@ Usage
 2.	Run the script:
 python berlin_traffic_random_forest.py
 3.	Outputs:
-o	Model performance metrics (MSE, R²) displayed in the terminal.
-o	Visualizations saved or displayed.
+-	Model performance metrics (MSE, R²) displayed in the terminal.
+-	Visualizations saved or displayed.
  
 Results
 
@@ -56,12 +56,9 @@ Results
 •	The model shows moderate predictive accuracy but highlights key features influencing average speed.
  
 Visualizations
-1.	Actual vs Predicted Speeds:
-- 	A scatter plot comparing actual traffic speeds to model predictions. 
-2.	Feature Importance:
--	A bar chart showing the relative importance of input features. 
-3.	Residual Plot:
--	A scatter plot of residuals to evaluate prediction errors. 
+1.	Actual vs Predicted Speeds: A scatter plot comparing actual traffic speeds to model predictions. 
+2.	Feature Importance: A bar chart showing the relative importance of input features. 
+3.	Residual Plot: A scatter plot of residuals to evaluate prediction errors. 
  
 Technologies Used
 -	Python: Programming language.
