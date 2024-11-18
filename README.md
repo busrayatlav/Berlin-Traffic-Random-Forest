@@ -53,7 +53,8 @@ pip install -r requirements.txt
   ```bash
   -	Model performance metrics (MSE, R²) displayed in the terminal.
   -	Visualizations saved or displayed.
- 
+
+
 ## Results
 •	Mean Squared Error (MSE): 188.14
 •	R-squared (R²): 0.27
